@@ -1,5 +1,6 @@
 import 'bootstrap';
 import '../stylesheets/application';
+import 'hammerjs';
 
 import '@fortawesome/fontawesome-free/js/all';
 
@@ -14,6 +15,7 @@ import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
 require("src/profile_image_upload");
+require("src/swipe")
 
 Rails.start()
 Turbolinks.start()
